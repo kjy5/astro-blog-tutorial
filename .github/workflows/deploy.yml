@@ -40,7 +40,7 @@ jobs:
       - name: 🟩 Setup Node.js and caching
         uses: actions/setup-node@v4
         with:
-          node-version: 23
+          node-version: latest
           cache: 'pnpm'
 
       # Install dependencies
